@@ -4,21 +4,24 @@
 
 // SYNC init (like read conf file)
 
-function skeleton() {
-    var internal
+function skeleton () {
 
-    return {
-        something: something
-    }
+  var internal
 
-    function privateStuff() {
-        var stuff
-        return stuff
-    }
+  return {
+    answer: answer
+  }
 
-    function something(alfa) {
-        return alfa
-    }
+  function privateStuff () {
+    var stuff
+    return stuff
+  }
+
+  function answer () {
+    internal
+    privateStuff()
+    return 42
+  }
 }
 
 module.exports = skeleton

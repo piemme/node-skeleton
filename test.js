@@ -5,9 +5,8 @@ var build = require('./')
 var skeleton
 
 test('simple test', function (t) {
-    var alfa = 10
-    skeleton = build()
-    t.equal(alfa, skeleton.something(alfa))
-    t.end()
+  skeleton = build()
+  t.equal(42, skeleton.answer())
+  t.end()
 })
 

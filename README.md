@@ -6,18 +6,19 @@ Modulo template per la costruzione di nuovi moduli
 
 ```
 npm install skeleton-x.y.z.tar.gz --save
-npm install git+ssh:git@gitlab.com:piemme/skeleton.git
+npm install git+ssh:git@gitlab.com:piemme/skeleton.git --save
+npm install git+ssh:git@github.com:piemme/skeleton.git --save
 ```
 
 <a name="api"></a>
 ## API
 
-  * <a href="#function"><code><b>something()</b></code></a>
+  * <a href="#function"><code><b>answer()</b></code></a>
 
 -------------------------------------------------------
 
 <a name="function"></a>
-### something(alfa)
+### answer(alfa)
 
 Description description description description
 Example:
