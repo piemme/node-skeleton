@@ -9,4 +9,3 @@ test('simple test', function (t) {
   t.equal(42, skeleton.answer())
   t.end()
 })
-

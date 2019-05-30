@@ -5,8 +5,7 @@
 // SYNC init (like read conf file)
 
 function skeleton () {
-
-  var internal
+  var internal = 42
 
   return {
     answer: answer
@@ -18,9 +17,8 @@ function skeleton () {
   }
 
   function answer () {
-    internal
     privateStuff()
-    return 42
+    return internal
   }
 }
 
