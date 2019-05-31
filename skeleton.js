@@ -1,24 +1,20 @@
 'use strict'
 
-// require deps
-
+// put dependencies here
 // SYNC init (like read conf file)
 
 function skeleton () {
   var internal = 42
-
-  return {
-    answer: answer
-  }
-
-  function privateStuff () {
+  const privateStuff = () => {
     var stuff
     return stuff
   }
-
-  function answer () {
+  const answer = () => {
     privateStuff()
     return internal
+  }
+  return {
+    answer: answer
   }
 }
 
